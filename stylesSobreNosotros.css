@@ -102,8 +102,8 @@ main {
 /*--------------------------------------------- ESTILOS FOOTER--------------------------------------------------------*/
 /* Estilo para el footer */
 .footer {
-    background-color: #0f0a32; /* Color de fondo */
-    color: #fff; /* Color del texto */
+    background-color: #0f0a32; 
+    color: #fff; 
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -113,7 +113,7 @@ main {
 
 /* Estilo para las columnas del footer */
 .footer-column {
-    flex: 1; /* Que cada columna ocupe el mismo espacio */
+    flex: 1; 
     margin-right: 20px;
     text-align: justify;
 }
@@ -153,5 +153,5 @@ main {
     width: 100%;
     margin-top: 20px;
     font-style: italic;
-    font-size: 18px; /* Tamaño de fuente */
+    font-size: 18px; 
 }
