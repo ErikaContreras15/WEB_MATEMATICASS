@@ -30,7 +30,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f2f2f2;
-    color: #333;
+    color: #29083683;
 }
 
 h1 {
@@ -59,8 +59,11 @@ h2 {
 }
 
 .cuadro:hover {
-    background-color: #160e47;
+    background-color: #5c529a;
+    
+        transform: translateY(-5px); 
 }
+
 
 /* Estilos para el título dentro de los cuadros */
 .cuadro h2 {
@@ -79,7 +82,7 @@ h2 {
     transition: display 0.3s ease;
 }
 
-/* Animación para mostrar la descripción */
+/* para que me deje visualizar el ejemplo */
 .description.show {
     display: block;
 }
