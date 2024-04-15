@@ -24,6 +24,80 @@ button:hover {
 }
 
 
+/*----------------------------------------ESTILOS BOBY-----------------------------------------*/
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 20px;
+}
+
+.valores,
+.equipo,
+.cta {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.valores h3,
+.equipo h3,
+.cta h3 {
+    color: #0f0a32;
+    font-size: 24px;
+}
+
+.valores ul {
+    padding-left: 20px;
+}
+
+.valores li {
+    margin-bottom: 10px;
+}
+
+.equipo p,
+.cta p {
+    line-height: 1.6;
+}
+
+.sobre-nosotros {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sobre-nosotros h2 {
+    color: #0f0a32;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.sobre-nosotros p {
+    line-height: 1.6;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+.slogan {
+    font-style: italic;
+    font-size: 14px;
+    color: #ccc;
+    margin-top: 20px;
+}
+
 
 /*--------------------------------------------- ESTILOS FOOTER--------------------------------------------------------*/
 /* Estilo para el footer */
