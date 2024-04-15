@@ -1,3 +1,4 @@
+
 /*--------------------------------------------ESTILOS ENCABEZADO----------------------------------*/
 
 button {
@@ -22,70 +23,55 @@ button:hover {
     background-color: #0f0a32;
     padding: 20px 50px; /* espacio interno */
 }
+/*------------------ESTILOS BOBY--------------------------------------------------------*/
+/* Estilos para los contenedores de cada sección */
+.humanos {
+    background-color: #ff8c8c; 
+    border: 1px solid #ddd;
 
-
-/*----------------------------------------ESTILOS BOBY-----------------------------------------*/
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f2f2f2;
-    color: #091f7a;
-}
-
-h1 {
-    text-align: center;
-}
-
-/* Estilos para la calculadora */
-#calculadora {
-    max-width: 350px;
-    margin: 0 auto;
-    padding: 100px;
-    background-color: #854aecb7;
-    border-radius: 30px;/*bordes*/
-    box-shadow: 0 0 10px rgba(117, 182, 33, 0.1);/*aplica una sombra alrededor del contenedor principal de la calculadora */
-}
-
-.pantalla {
     margin-bottom: 20px;
+    padding: 20px;
+    color: #fff; 
 }
 
-#resultado {
-    width: 95%;
-    padding: 10px;
-    font-size: 30px;
-    text-align: right;
-    border: none;
-    border-radius: 5px;
-    background-color: #fff;
+.primera {
+    background-color: #ffc266; 
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+    color: #fff; 
 }
 
-.botones {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
+.siglo {
+    background-color: #8cff66; 
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+    color: #fff; 
 }
 
-.botones button {
-    padding: 15px;
-    font-size: 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: rgb(48, 125, 180);
-    color: #fff;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+.digitales {
+    background-color: #66b3ff; 
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+    color: #fff; 
 }
 
-/*Cambia de color al momento de pasar el raton sobre el */
-.botones button:hover {
-    background-color: #6c13c4f8;
+/* Estilos para los contenedores de cada sección */
+.humanos,
+.primera,
+.siglo,
+.digitales {
+transition: transform 0.3s ease; 
 }
 
-.botones button:active {
-    transform: translateY(3px);
+/* cuando se pasa el ratón sobre el contenedor se mueve hacia arriba */
+.humanos:hover,
+.primera:hover,
+.siglo:hover,
+.digitales:hover {
+transform: translateY(-5px); 
 }
 
 
@@ -111,7 +97,7 @@ h1 {
 /* Estilo para los títulos de las columnas del footer */
 .footer-column h3 {
     font-size: 20px; 
-    margin-bottom: 15px;
+    margin-bottom: 15px; 
 }
 
 /* Estilo para los párrafos dentro de las columnas del footer */
@@ -133,7 +119,7 @@ h1 {
 
 /* Estilo para los íconos sociales */
 .social-icons img {
-    width: 30px;
+    width: 30px; 
     margin-right: 20px; 
 }
 
@@ -143,5 +129,5 @@ h1 {
     width: 100%;
     margin-top: 20px;
     font-style: italic;
-    font-size: 18px;
+    font-size: 18px; 
 }

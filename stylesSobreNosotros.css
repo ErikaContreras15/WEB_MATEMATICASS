@@ -120,13 +120,13 @@ main {
 
 /* Estilo para los títulos de las columnas del footer */
 .footer-column h3 {
-    font-size: 20px; /* Tamaño de fuente */
-    margin-bottom: 15px; /* Margen inferior */
+    font-size: 20px; 
+    margin-bottom: 15px; 
 }
 
 /* Estilo para los párrafos dentro de las columnas del footer */
 .footer-column p {
-    margin: 10px 0; /* Espaciado vertical */
+    margin: 10px 0; 
 }
 
 /* Estilo para las listas dentro de las columnas del footer */
@@ -143,8 +143,8 @@ main {
 
 /* Estilo para los íconos sociales */
 .social-icons img {
-    width: 30px; /* Tamaño de los íconos */
-    margin-right: 20px; /* Espaciado entre íconos */
+    width: 30px; 
+    margin-right: 20px; 
 }
 
 /* Estilo para el eslogan */
@@ -153,5 +153,5 @@ main {
     width: 100%;
     margin-top: 20px;
     font-style: italic;
-    font-size: 18px; /* Tamaño de fuente */
+    font-size: 18px; 
 }

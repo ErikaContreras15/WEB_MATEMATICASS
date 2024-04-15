@@ -29,9 +29,9 @@ button:hover {
 /* Estilos para el contenedor */
 .container {
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    height: 70vh; /* Utiliza el 70% de la altura de la ventana del navegador */
+    justify-content: center; 
+    align-items: center; 
+    height: 70vh;
 }
 
 /* Estilos para el contenedor del logo */
@@ -59,26 +59,75 @@ button:hover {
 /* Estilos para el texto */
 h1{
     text-align: left; /* Centra el texto horizontalmente */
+    margin-top: 20px;
 }
 h2 {
     text-align: left; /* Centra el texto horizontalmente */
 }
 
+/*----------------------------------------ESTILOS BOBY 2-----------------------------------------*/
+.calculadora-digital {
+    text-align: center; 
+    width: 100%;
+    margin: 0 auto; 
+    background-color: #5040b896;
 
+}
 
+.calculadora-digital p {
+    font-size: 16px; 
+    color: #333; 
+    line-height: 1.6; 
+}
 
+.calculadora-digital p strong {
+    font-weight: bold; 
+}
 
+/*-----------------------------PARA LA HISTORIA DE LA CALCULADORA*----------------------*/
+.historia-calculadora {
+    display: flex; /* Utiliza flexbox para alinear elementos en fila */
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+    justify-content: center; /* Alinea los elementos horizontalmente al centro */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan cuando no caben en una sola fila */
+    padding: 20px; /* Agrega espacio interno al contenedor */
+    background-color: #5040b896; /* Color de fondo */
+}
 
+/* Estilos para la imagen */
+.historia-calculadora img {
+    width: 200px; /* Establece el ancho de la imagen */
+    height: auto; /* Hace que la altura se ajuste automáticamente para mantener la proporción */
+    margin-left: 20px; /* Agrega espacio a la derecha de la imagen */
+}
 
+/* Estilos para el texto */
+.historia-calculadora p {
+    text-align: justify;
+    line-height: 1.6; 
+}
 
+/* Estilos para el enlace */
+.historia-calculadora a {
+    display: inline-block; 
+    margin-top: 20px; 
+    padding: 10px 20px; 
+    background-color: #0f7ef6a0; 
+    color: #fff; 
+    border-radius: 5px; 
+}
 
+/* Estilos para el enlace al pasar el ratón */
+.historia-calculadora a:hover {
+    background-color: #0056b3;
+}
 
 
 /*--------------------------------------------- ESTILOS FOOTER--------------------------------------------------------*/
 /* Estilo para el footer */
 .footer {
-    background-color: #0f0a32; /* Color de fondo */
-    color: #fff; /* Color del texto */
+    background-color: #0f0a32; 
+    color: #fff; 
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -88,20 +137,20 @@ h2 {
 
 /* Estilo para las columnas del footer */
 .footer-column {
-    flex: 1; /* Que cada columna ocupe el mismo espacio */
+    flex: 1; 
     margin-right: 20px;
     text-align: justify;
 }
 
 /* Estilo para los títulos de las columnas del footer */
 .footer-column h3 {
-    font-size: 20px; /* Tamaño de fuente */
-    margin-bottom: 15px; /* Margen inferior */
+    font-size: 20px; 
+    margin-bottom: 15px; 
 }
 
 /* Estilo para los párrafos dentro de las columnas del footer */
 .footer-column p {
-    margin: 10px 0; /* Espaciado vertical */
+    margin: 10px 0; 
 }
 
 /* Estilo para las listas dentro de las columnas del footer */
@@ -118,8 +167,8 @@ h2 {
 
 /* Estilo para los íconos sociales */
 .social-icons img {
-    width: 30px; /* Tamaño de los íconos */
-    margin-right: 20px; /* Espaciado entre íconos */
+    width: 30px; 
+    margin-right: 20px; 
 }
 
 /* Estilo para el eslogan */
@@ -128,5 +177,5 @@ h2 {
     width: 100%;
     margin-top: 20px;
     font-style: italic;
-    font-size: 18px; /* Tamaño de fuente */
+    font-size: 18px; 
 }

@@ -54,9 +54,8 @@ h2 {
     transition: background-color 0.3s ease;
     vertical-align: top;
     max-height: 150px;
-    /* Altura máxima de la descripción */
     overflow-y: auto;
-    /* Agregar barra de desplazamiento vertical si la descripción es demasiado larga */
+    /* barra de desplazamiento vertical si la descripción es demasiado larga */
 }
 
 .cuadro:hover {
@@ -87,8 +86,8 @@ h2 {
 /*--------------------------------------------- ESTILOS FOOTER--------------------------------------------------------*/
 /* Estilo para el footer */
 .footer {
-    background-color: #0f0a32; /* Color de fondo */
-    color: #fff; /* Color del texto */
+    background-color: #0f0a32;
+    color: #fff; 
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -105,13 +104,13 @@ h2 {
 
 /* Estilo para los títulos de las columnas del footer */
 .footer-column h3 {
-    font-size: 20px; /* Tamaño de fuente */
-    margin-bottom: 15px; /* Margen inferior */
+    font-size: 20px;
+    margin-bottom: 15px; 
 }
 
 /* Estilo para los párrafos dentro de las columnas del footer */
 .footer-column p {
-    margin: 10px 0; /* Espaciado vertical */
+    margin: 10px 0; 
 }
 
 /* Estilo para las listas dentro de las columnas del footer */
@@ -128,8 +127,8 @@ h2 {
 
 /* Estilo para los íconos sociales */
 .social-icons img {
-    width: 30px; /* Tamaño de los íconos */
-    margin-right: 20px; /* Espaciado entre íconos */
+    width: 30px; 
+    margin-right: 20px; 
 }
 
 /* Estilo para el eslogan */
@@ -138,5 +137,5 @@ h2 {
     width: 100%;
     margin-top: 20px;
     font-style: italic;
-    font-size: 18px; /* Tamaño de fuente */
+    font-size: 18px; 
 }

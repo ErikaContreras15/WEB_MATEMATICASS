@@ -64,8 +64,16 @@ function calcular() {
 
 // Función para actualizar el contenido de la pantalla
 function actualizarPantalla() {
-    document.getElementById('resultado').value = numeroEnPantalla;
+      
+      if (operador !== '' && numeroEnPantalla !== '') {
+        
+        document.getElementById('resultado').value = resultado + operador + numeroEnPantalla;//muestra el resultado
+    } else {
+       
+        document.getElementById('resultado').value = numeroEnPantalla;
+    }
 }
+
 
 //----------------------------Pestaña de Operaciones----------------------------
 function toggleDescription(descriptionId) {
@@ -73,14 +81,12 @@ function toggleDescription(descriptionId) {
     if (description.classList.contains("show")) {
         description.classList.remove("show");
     } else {
-        // Ocultar otras descripciones
         var descriptions = document.querySelectorAll(".description");
         descriptions.forEach(function (desc) {
             if (desc.id !== descriptionId) {
                 desc.classList.remove("show");
             }
         });
-        // Mostrar descripción seleccionada
         description.classList.add("show");
     }
 }
